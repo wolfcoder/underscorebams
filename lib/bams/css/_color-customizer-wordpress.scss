@@ -1,0 +1,30 @@
+.site-branding .site-title a:visited,
+.site-title a,
+.site-title a:visited,
+.site-description,
+.site-header,
+.site-header a,
+.site-header a:visited,
+.site-header button:after,
+.main-navigation a ,
+.main-navigation a:hover ,
+.site-footer ,
+.site-footer a,
+.site-footer a:visited {
+  color: $color-menu;
+}
+
+.site-footer a:hover {
+  color: $color__link-hover;
+}
+
+.site-header,
+.site-footer,
+.main-navigation,
+.main-navigation ul{
+  background-color: $theme-color;
+}
+
+.site-custom-header{
+  background: #5e0059;
+}
