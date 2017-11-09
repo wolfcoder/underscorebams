@@ -1,0 +1,48 @@
+/*
+Theme Name: underscorebams
+
+WooCommerce styles override
+*/
+
+/**
+ * WooCommerce color variables
+ */
+$woocommerce__color-error: #e2401c;
+$woocommerce__color-success: #0f834d;
+$woocommerce__color-info: #3D9CD2;
+
+/**
+ * Imports
+ */
+@import "sass/variables-site/variables-site";
+@import "sass/mixins/mixins-master";
+
+/**
+ * Shop tables
+ */
+@import "sass/shop/tables";
+
+/**
+ * Products
+ */
+@import "sass/shop/products";
+
+/**
+ * Single product
+ */
+@import "sass/shop/single-product";
+
+/**
+ * Checkout
+ */
+@import "sass/shop/checkout";
+
+/**
+ * General WooCommerce components
+ */
+@import "sass/shop/components";
+
+/**
+ * WooCommerce widgets
+ */
+@import "sass/shop/widgets";

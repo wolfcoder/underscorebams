@@ -1,0 +1,79 @@
+11/4/2017 12.00 - 13.36
+=======================
+fix mobile nav
+fix menu move menu to left side
+fix search add modal menu behind header
+
+logo header
+https://developer.wordpress.org/themes/functionality/custom-headers/
+
+11/4/2017 20.30 - 13.36
+=======================
+try to add action in right side of menu pop up -> failed
+add href to custom logo if set name site to logo
+
+https://codex.wordpress.org/Theme_Customization_API
+http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
+
+style content
+
+11/5/2017 20.30 - 13.36
+=======================
+adding sample content for king composer page
+adding style padding content
+page special king composer / no padding
+widget
+
+11/5/2017 11.20 - 11.40
+=======================
+add shadow menu header
+add modal
+
+11/6/2017 6.00 - 8.00
+=======================
+modal : https://www.w3schools.com/howto/howto_css_modals.asp
+
+11/6/2017 11.30 - 12.17
+=======================
+content area - sidebar
+
+11/7/2017 11.00 - 14.00
+=======================
+menu pop up, display block current item
+set to padding-left each a element in each level
+
+11/7/2017 17.20 - 22.30
+=======================
+menu pop up, display block current item
+set to padding-left each a element in each level
+
+11/8/2017 17.20 - 22.30
+=======================
+add spacer-line under header
+reduce margin and padding h2 main menu mobile
+
+11/8/2017 09.00 - 01.00
+=======================
+fixing content area padding
+woocomerce page
+
+11/8/2017 17.30 - 20.00
+=======================
+fixing king composer page area
+add css :first child sidebar
+
+11/8/2017 23.30 - 20.00
+=======================
+remove font face google in header.php
+resize logo hanarooku to 30px height
+add favico via dashboard hanarooku
+
+.no-side-padding {
+  & > :first-child
+
+======================
+
+
+footer
+font face
+faveicon
