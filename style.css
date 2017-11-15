@@ -739,30 +739,30 @@ object {
 
 .menu-toggle {
   float: right;
-  width: 50px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0; }
-  .menu-toggle:focus {
-    outline: 0; }
-  .menu-toggle:after {
+  padding: 0 10px; }
+  .menu-toggle:before {
     content: '\f00d';
     font-family: FontAwesome;
     font-weight: normal;
     font-style: normal;
     font-size: 1.5em; }
-  .menu-toggle[aria-expanded="false"]:after {
+  .menu-toggle[aria-expanded="false"]:before {
     content: '\f0c9'; }
+  .menu-toggle:focus {
+    outline: 0; }
+  .menu-toggle span {
+    padding-left: 5px; }
 
 .second-nav-toggle {
   float: right;
-  width: 40px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0; }
-  .second-nav-toggle:after {
+  padding: 0 10px; }
+  .second-nav-toggle:before {
     content: "\f07a";
     font-family: FontAwesome;
     font-weight: normal;
@@ -770,6 +770,8 @@ object {
     font-size: 1.5em; }
   .second-nav-toggle:focus {
     outline: 0; }
+  .second-nav-toggle span {
+    padding-left: 5px; }
 
 .second-nav {
   clear: both;
@@ -868,7 +870,7 @@ object {
 .site-header,
 .site-header a,
 .site-header a:visited,
-.site-header button:after,
+.site-header button,
 .main-navigation a,
 .main-navigation a:hover,
 .site-footer,
@@ -891,6 +893,10 @@ object {
 /*--------------------------------------------------------------
 # Bams Footer
 --------------------------------------------------------------*/
+.site-footer {
+  text-align: center;
+  padding: 10px; }
+
 /*--------------------------------------------------------------
 # Bams Woocommerce
 --------------------------------------------------------------*/
@@ -927,5 +933,12 @@ ul.woocommerce-mini-cart li a {
 
 .woocommerce-products-header h1 {
   margin-top: 0; }
+
+/*--------------------------------------------------------------
+# Bams Small screen
+--------------------------------------------------------------*/
+@media (max-width: 1280px) {
+  .second-nav-toggle span, .menu-toggle span {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
