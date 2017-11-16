@@ -9,3 +9,7 @@ code is divided by minimalizing html class element, all design presentation set 
 Feature:
 - Original Customizer from wordpress theme function (header image, logo, color, background, favicon etc)
 - widget ready in 4 main section
+
+demo use in:
+http://cozymart.net
+http://hanarooku.com
