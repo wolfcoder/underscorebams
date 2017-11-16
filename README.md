@@ -12,11 +12,11 @@ Feature:
 
 demo use in:
 
-http://cozymart.net
 http://hanarooku.com
+http://cozymart.net
 
 Update
 =
 add hero section
 Change header image in Customizer to background image
-add
+add widget to hero content caption
