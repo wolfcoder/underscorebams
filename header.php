@@ -57,7 +57,6 @@
         </div>
     </header><!-- #masthead -->
 
-
 	<?php if ( is_front_page() ): ?>
         <div class="hero">
             <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>"
@@ -65,7 +64,6 @@
                  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
         </div>
 	<?php endif; ?>
-
 
     <div class="site-content">
 
