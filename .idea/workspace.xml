@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="290d7608-1be2-4d7a-876b-0e8f38ed25fa" name="Default" comment="">
+    <list default="true" id="290d7608-1be2-4d7a-876b-0e8f38ed25fa" name="Default" comment="formating readme doc">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <first_editor relative-caret-position="289">
+                <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1510850585500</updated>
       <workItem from="1510850586831" duration="766000" />
-      <workItem from="1510853324920" duration="217000" />
+      <workItem from="1510853324920" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="delet unnecesarry file">
       <created>1510851018098</created>
@@ -146,11 +146,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510853456228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="formating readme doc">
+      <created>1510853569907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510853569907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="983000" />
+    <option name="totallyTimeSpent" value="1173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -184,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delet unnecesarry file" />
     <MESSAGE value="add update doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add update doc" />
+    <MESSAGE value="formating readme doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="formating readme doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -211,8 +219,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <first_editor relative-caret-position="289">
+            <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />

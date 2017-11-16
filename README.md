@@ -10,13 +10,13 @@ Feature:
 - Original Customizer from wordpress theme function (header image, logo, color, background, favicon etc)
 - widget ready in 4 main section
 
-demo use in:
-
--http://hanarooku.com
--http://cozymart.net
+Demo use in:
+- http://hanarooku.com
+- http://cozymart.net
 
 Update
 =
--add hero section
--Change header image in Customizer to background image
--add widget to hero content caption
+
+- add hero section
+- Change header image in Customizer to background image
+- add widget to hero content caption
