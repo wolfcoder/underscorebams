@@ -147,6 +147,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @import "lib/bams/css/_woocommerce";
 
+/*--------------------------------------------------------------
+# Bams Small screen
+--------------------------------------------------------------*/
+@import "lib/bams/css/_small-screen";
+
 ///*--------------------------------------------------------------
 //# Bams Font Awesome
 //--------------------------------------------------------------*/
@@ -169,5 +174,3 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 //@import "lib/font-awesome/scss/stacked";
 //@import "lib/font-awesome/scss/icons";
 //@import "lib/font-awesome/scss/screen-reader";
-
-

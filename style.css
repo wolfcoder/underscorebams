@@ -747,8 +747,7 @@ object {
     content: '\f00d';
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal;
-    font-size: 1.5em; }
+    font-style: normal; }
   .menu-toggle[aria-expanded="false"]:before {
     content: '\f0c9'; }
   .menu-toggle:focus {
@@ -766,8 +765,7 @@ object {
     content: "\f07a";
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal;
-    font-size: 1.5em; }
+    font-style: normal; }
   .second-nav-toggle:focus {
     outline: 0; }
   .second-nav-toggle span {
@@ -879,16 +877,16 @@ object {
   color: #FFFFFF; }
 
 .site-footer a:hover {
-  color: #ed1342; }
+  color: #FFFFFF; }
 
 .site-header,
 .site-footer,
 .main-navigation,
 .main-navigation ul {
-  background-color: #4276ff; }
+  background-color: #333333; }
 
 .site-custom-header {
-  background: #5e0059; }
+  background: #951224; }
 
 /*--------------------------------------------------------------
 # Bams Footer
@@ -934,11 +932,17 @@ ul.woocommerce-mini-cart li a {
 .woocommerce-products-header h1 {
   margin-top: 0; }
 
+.woocommerce .entry-summary {
+  margin-top: 0; }
+
 /*--------------------------------------------------------------
 # Bams Small screen
 --------------------------------------------------------------*/
 @media (max-width: 1280px) {
   .second-nav-toggle span, .menu-toggle span {
-    display: none; } }
+    display: none; }
+
+  .menu-toggle:before, .second-nav-toggle:before {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
