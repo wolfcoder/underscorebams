@@ -38,8 +38,8 @@
 			<?php endif; ?>
 
         </div><!-- .site-branding -->
-        <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false"></button>
-        <button class="second-nav-toggle"></button>
+        <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false"><span>Menu</button>
+        <button class="second-nav-toggle"><span>Cart </span></button>
         <div class="modal">
         </div>
         <nav class="main-navigation">
@@ -64,12 +64,7 @@
                  height="<?php echo get_custom_header()->height; ?>"
                  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
         </div>
-	<?php else : ?>
-<!--        <div id="banner" style="height: 20px;">-->
-<!---->
-<!--        </div>-->
-		<?php
-	endif; ?>
+	<?php endif; ?>
 
 
     <div class="site-content">
