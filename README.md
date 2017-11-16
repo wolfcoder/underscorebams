@@ -10,7 +10,7 @@ Feature:
 - Original Customizer from wordpress theme function (header image, logo, color, background, favicon etc)
 - widget ready in 4 main section
 
-Demo use in:
+Live Demo use in:
 - http://hanarooku.com
 - http://cozymart.net
 
