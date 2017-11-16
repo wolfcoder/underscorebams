@@ -11,5 +11,7 @@ Feature:
 - widget ready in 4 main section
 
 demo use in:
+
 http://cozymart.net
+
 http://hanarooku.com
