@@ -739,37 +739,37 @@ object {
 
 .menu-toggle {
   float: right;
+  width: 50px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0 10px; }
-  .menu-toggle:before {
+  padding: 0; }
+  .menu-toggle:focus {
+    outline: 0; }
+  .menu-toggle:after {
     content: '\f00d';
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal; }
-  .menu-toggle[aria-expanded="false"]:before {
+    font-style: normal;
+    font-size: 1.5em; }
+  .menu-toggle[aria-expanded="false"]:after {
     content: '\f0c9'; }
-  .menu-toggle:focus {
-    outline: 0; }
-  .menu-toggle span {
-    padding-left: 5px; }
 
 .second-nav-toggle {
   float: right;
+  width: 40px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0 10px; }
-  .second-nav-toggle:before {
+  padding: 0; }
+  .second-nav-toggle:after {
     content: "\f07a";
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal; }
+    font-style: normal;
+    font-size: 1.5em; }
   .second-nav-toggle:focus {
     outline: 0; }
-  .second-nav-toggle span {
-    padding-left: 5px; }
 
 .second-nav {
   clear: both;
@@ -900,7 +900,7 @@ object {
 .site-header,
 .site-header a,
 .site-header a:visited,
-.site-header button,
+.site-header button:after,
 .main-navigation a,
 .main-navigation a:hover,
 .site-footer,
@@ -909,16 +909,16 @@ object {
   color: #FFFFFF; }
 
 .site-footer a:hover {
-  color: #FFFFFF; }
+  color: #ed1342; }
 
 .site-header,
 .site-footer,
 .main-navigation,
 .main-navigation ul {
-  background-color: #333333; }
+  background-color: #4276ff; }
 
 .site-custom-header {
-  background: #951224; }
+  background: #5e0059; }
 
 /*--------------------------------------------------------------
 # Bams Footer
