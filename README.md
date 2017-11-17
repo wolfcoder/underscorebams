@@ -1,6 +1,5 @@
 Simple fast light mobile Wordpress template base from underscore.
 =
-every one is welcome to contribution.
 
 Underscore bams is wordpress template base from underscore  
 build with purpose of fast light mobile wordpress template, search engine optimisation template.

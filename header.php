@@ -59,9 +59,7 @@
 
 	<?php if ( is_front_page() ): ?>
     <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height:500px; ">
-        <div class="hero-caption">
 	        <?php dynamic_sidebar( 'hero' ); ?>
-        </div>
     </div>
 <?php endif; ?>
 
