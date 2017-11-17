@@ -134,6 +134,16 @@ function underscorebams_widgets_init() {
 	) );
 
 	register_sidebar( array(
+		'name'          => esc_html__( 'Hero', 'underscorebams' ),
+		'id'            => 'hero',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'description'   => esc_html__( 'Add widgets here.', 'underscorebams' ),
+		'before_title'  => '<h1 class="hero-caption-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'underscorebams' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'underscorebams' ),
@@ -170,6 +180,9 @@ function underscorebams_scripts() {
 	wp_register_script( 'underscorebams-js', get_template_directory_uri() . '/lib/bams/js/bams-script.min.js', array('jquery'), '1.0.0', true );
 
 //	wp_enqueue_script( 'underscorebams-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+	//Smooth parallax scrolling effect https://github.com/nk-o/jarallax
+//	wp_enqueue_script( 'jarallax', get_theme_file_uri( '/lib/jarallax/jarallax.js' ), array('jquery'), '1.8.0', true );
 
 	wp_enqueue_script ('underscorebams-js');
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
