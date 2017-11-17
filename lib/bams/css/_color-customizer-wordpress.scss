@@ -5,26 +5,26 @@
 .site-header,
 .site-header a,
 .site-header a:visited,
-.site-header button:after,
+.site-header button,
 .main-navigation a ,
 .main-navigation a:hover ,
 .site-footer ,
 .site-footer a,
 .site-footer a:visited {
-  color: $color-menu;
+  color: #FFFFFF;
 }
 
 .site-footer a:hover {
-  color: $color__link-hover;
+  color: #FFFFFF;
 }
 
 .site-header,
 .site-footer,
 .main-navigation,
 .main-navigation ul{
-  background-color: $theme-color;
+  background-color: #333333;
 }
 
 .site-custom-header{
-  background: #5e0059;
+  background: #951224;
 }
