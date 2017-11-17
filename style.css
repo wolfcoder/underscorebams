@@ -739,37 +739,37 @@ object {
 
 .menu-toggle {
   float: right;
+  width: 50px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0 10px; }
-  .menu-toggle:before {
+  padding: 0; }
+  .menu-toggle:focus {
+    outline: 0; }
+  .menu-toggle:after {
     content: '\f00d';
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal; }
-  .menu-toggle[aria-expanded="false"]:before {
+    font-style: normal;
+    font-size: 1.5em; }
+  .menu-toggle[aria-expanded="false"]:after {
     content: '\f0c9'; }
-  .menu-toggle:focus {
-    outline: 0; }
-  .menu-toggle span {
-    padding-left: 5px; }
 
 .second-nav-toggle {
   float: right;
+  width: 40px;
   height: 50px;
   border: none;
   background: none;
-  padding: 0 10px; }
-  .second-nav-toggle:before {
+  padding: 0; }
+  .second-nav-toggle:after {
     content: "\f07a";
     font-family: FontAwesome;
     font-weight: normal;
-    font-style: normal; }
+    font-style: normal;
+    font-size: 1.5em; }
   .second-nav-toggle:focus {
     outline: 0; }
-  .second-nav-toggle span {
-    padding-left: 5px; }
 
 .second-nav {
   clear: both;
@@ -805,8 +805,40 @@ object {
 /*--------------------------------------------------------------
 # Bams Hero
 --------------------------------------------------------------*/
-.hero img {
-  display: block; }
+.hero {
+  position: relative;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  .hero .hero-caption {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    top: 50%;
+    transform: translateY(-50%); }
+    .hero .hero-caption h1 {
+      line-height: 3.5rem;
+      font-size: 3em;
+      font-weight: 800; }
+  .hero .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    background: #3dd949;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; }
+    .hero .btn:before {
+      padding-right: 5px;
+      content: '\f232';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal; }
+  .hero .btn:hover {
+    background: #33b63e;
+    text-decoration: none; }
 
 /*--------------------------------------------------------------
 # Bams content
@@ -868,7 +900,7 @@ object {
 .site-header,
 .site-header a,
 .site-header a:visited,
-.site-header button,
+.site-header button:after,
 .main-navigation a,
 .main-navigation a:hover,
 .site-footer,
@@ -877,24 +909,20 @@ object {
   color: #FFFFFF; }
 
 .site-footer a:hover {
-  color: #FFFFFF; }
+  color: #ed1342; }
 
 .site-header,
 .site-footer,
 .main-navigation,
 .main-navigation ul {
-  background-color: #333333; }
+  background-color: #4276ff; }
 
 .site-custom-header {
-  background: #951224; }
+  background: #5e0059; }
 
 /*--------------------------------------------------------------
 # Bams Footer
 --------------------------------------------------------------*/
-.site-footer {
-  text-align: center;
-  padding: 10px; }
-
 /*--------------------------------------------------------------
 # Bams Woocommerce
 --------------------------------------------------------------*/
@@ -932,17 +960,8 @@ ul.woocommerce-mini-cart li a {
 .woocommerce-products-header h1 {
   margin-top: 0; }
 
-.woocommerce .entry-summary {
-  margin-top: 0; }
-
 /*--------------------------------------------------------------
 # Bams Small screen
 --------------------------------------------------------------*/
-@media (max-width: 1280px) {
-  .second-nav-toggle span, .menu-toggle span {
-    display: none; }
-
-  .menu-toggle:before, .second-nav-toggle:before {
-    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */

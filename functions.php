@@ -136,7 +136,7 @@ function underscorebams_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Hero', 'underscorebams' ),
 		'id'            => 'hero',
-		'before_widget' => '<div>',
+		'before_widget' => '<div class="hero-caption">',
 		'after_widget'  => '</div>',
 		'description'   => esc_html__( 'Add widgets here.', 'underscorebams' ),
 		'before_title'  => '<h1 class="hero-caption-title">',
