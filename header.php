@@ -58,15 +58,11 @@
     </header><!-- #masthead -->
 
 	<?php if ( is_front_page() ): ?>
-    <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height: <?php echo get_custom_header()->height; ?>px ">
-        <div class="hero-caption" style="line-height:<?php echo get_custom_header()->height; ?>px; ">
-            <h1><?php echo esc_attr( get_bloginfo( 'description', 'display' ) ); ?></h1>
-            <!--            <img src="--><?php //header_image(); ?><!--" width="-->
-            <?php //echo get_custom_header()->width; ?><!--"-->
-            <!--                 height="--><?php //echo get_custom_header()->height; ?><!--"-->
-            <!--                 alt="">-->
+    <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height:500px; ">
+        <div class="hero-caption">
+	        <?php dynamic_sidebar( 'hero' ); ?>
         </div>
-</div>
+    </div>
 <?php endif; ?>
 
 <div class="site-content">
