@@ -19,3 +19,4 @@ Update
 - add hero section
 - Change header image in Customizer to background image
 - add widget to hero content caption
+- check

@@ -57,11 +57,13 @@
         </div>
     </header><!-- #masthead -->
 
-	<?php if ( is_front_page() ): ?>
-    <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height:500px; ">
-	        <?php dynamic_sidebar( 'hero' ); ?>
-    </div>
-<?php endif; ?>
+	<?php if ( is_front_page() ){ ?>
+		<?php if ( has_header_image() ) { ?>
+            <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height:500px; ">
+				<?php dynamic_sidebar( 'hero' ); ?>
+            </div>
+		<?php } ?>
+	<?php } ?>
 
 <div class="site-content">
 

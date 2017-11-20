@@ -23,6 +23,7 @@ function underscorebams_custom_header_setup() {
 		'width'                  => 1920,
 		'height'                 => 600,
 		'flex-height'            => true,
+		'video'                  => true,
 		'wp-head-callback'       => 'underscorebams_header_style',
 	) ) );
 }
