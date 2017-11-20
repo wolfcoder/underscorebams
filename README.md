@@ -20,5 +20,5 @@ Update
 
 TODO
 #
--add video background function in header
+- add video background function in header
 -
