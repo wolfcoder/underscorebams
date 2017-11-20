@@ -22,10 +22,3 @@ TODO
 =
 - add video background function in header
 - add social media 
-
-learn git
-=
-1. local 
-2. local 
-3. upstream
-4.local
