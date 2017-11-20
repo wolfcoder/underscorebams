@@ -23,4 +23,4 @@ TODO
 - add video background function in header
 - add social media 
 
-from local & from github stream
+from github upstream
