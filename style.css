@@ -833,7 +833,7 @@ object {
     .hero .btn:before {
       padding-right: 5px;
       content: '\f232';
-      font-family: FontAwesome;
+      font-family: FontAwesome, cursive;
       font-weight: normal;
       font-style: normal; }
   .hero .btn:hover {
@@ -843,10 +843,6 @@ object {
 /*--------------------------------------------------------------
 # Bams content
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
-  .site-content {
-    max-width: 1140px;
-    margin: 0 auto; } }
 .site-content-full {
   padding: 0;
   margin: 0; }
@@ -874,6 +870,10 @@ object {
 .page-header {
   padding: 0 0.8em; }
 
+@media (min-width: 1280px) {
+  .site-content {
+    max-width: 1140px;
+    margin: 0 auto; } }
 /*--------------------------------------------------------------
 # Bams sidebar
 --------------------------------------------------------------*/
@@ -906,16 +906,16 @@ object {
 .site-footer,
 .site-footer a,
 .site-footer a:visited {
-  color: #FFFFFF; }
+  color: #FFF; }
 
 .site-footer a:hover {
-  color: #FFFFFF; }
+  color: #FFF; }
 
 .site-header,
 .site-footer,
 .main-navigation,
 .main-navigation ul {
-  background-color: #333333; }
+  background-color: #333; }
 
 .site-custom-header {
   background: #951224; }
@@ -940,7 +940,8 @@ ul.woocommerce-mini-cart li a {
 .second-nav ul.woocommerce-mini-cart li a {
   vertical-align: top;
   line-height: 1.5rem; }
-.second-nav p, .second-nav h2 {
+.second-nav p,
+.second-nav h2 {
   margin: 0;
   padding: 0; }
 .second-nav .woocommerce-mini-cart ul.cart_list li img, .second-nav .woocommerce ul.product_list_widget li img {
@@ -949,8 +950,11 @@ ul.woocommerce-mini-cart li a {
   width: 60px;
   height: auto;
   box-shadow: none; }
-.second-nav .woocommerce #respond input#submit, .second-nav .woocommerce a.button, .second-nav .woocommerce button.button, .second-nav .woocommerce input.button {
-  color: #FFFFFF;
+.second-nav .woocommerce #respond input#submit,
+.second-nav .woocommerce a.button,
+.second-nav .woocommerce button.button,
+.second-nav .woocommerce input.button {
+  color: #FFF;
   background-color: #3162bf; }
 
 @media (max-width: 1280px) {
@@ -964,7 +968,8 @@ ul.woocommerce-mini-cart li a {
 .woocommerce-products-header h1 {
   margin-top: 0; }
 
-.woocommerce .page-content, .woocommerce .entry-content, .woocommerce .entry-summary {
+.woocommerce .page-content, .woocommerce .entry-content,
+.woocommerce .entry-summary {
   margin-top: 0; }
 .woocommerce .woocommerce-MyAccount-navigation {
   float: none;
@@ -984,10 +989,12 @@ ul.woocommerce-mini-cart li a {
 # Bams Small screen
 --------------------------------------------------------------*/
 @media (max-width: 1280px) {
-  .second-nav-toggle span, .menu-toggle span {
+  .second-nav-toggle span,
+  .menu-toggle span {
     display: none; }
 
-  .menu-toggle:before, .second-nav-toggle:before {
+  .menu-toggle:before,
+  .second-nav-toggle:before {
     font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */

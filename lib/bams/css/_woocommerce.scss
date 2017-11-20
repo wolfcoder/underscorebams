@@ -20,7 +20,9 @@ ul.woocommerce-mini-cart {
       }
     }
   }
-  p, h2 {
+
+    p,
+    h2 {
     margin: 0;
     padding: 0;
   }
@@ -33,9 +35,11 @@ ul.woocommerce-mini-cart {
     box-shadow: none;
   }
 
-  .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
-
-    color: #FFFFFF;
+    .woocommerce #respond input#submit,
+    .woocommerce a.button,
+    .woocommerce button.button,
+    .woocommerce input.button {
+        color: #FFF;
     background-color: $theme-color-dark;
   }
 
@@ -59,7 +63,8 @@ ul.woocommerce-mini-cart {
 
 .woocommerce {
 
-  .page-content, .entry-content, .entry-summary {
+    .page-content, .entry-content,
+    .entry-summary {
     margin-top: 0;
   }
 

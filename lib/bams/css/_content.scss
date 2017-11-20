@@ -1,12 +1,3 @@
-
-@media (min-width: 1280px) {
-  .site-content {
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-}
-
-
 .site-content-full {
   padding: 0;
   margin: 0;
@@ -16,7 +7,7 @@
   }
 }
 
-.no-side-padding ,
+.no-side-padding,
 .site-main {
   & > :first-child {
     h1, h2 , h3 {
@@ -46,4 +37,12 @@
 .comments-area,
 .page-header {
   padding: 0 .8em
+}
+
+@media (min-width: 1280px) {
+
+    .site-content {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 }

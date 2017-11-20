@@ -39,7 +39,7 @@
 
         </div><!-- .site-branding -->
         <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false"><span>Menu</button>
-        <button class="second-nav-toggle"><span>Cart </span></button>
+        <button class="second-nav-toggle" aria-controls="second-nav"><span>Cart </span></button>
         <div class="modal">
         </div>
         <nav class="main-navigation">
