@@ -24,5 +24,5 @@ TODO
 - add social media 
 
 
-from local branch 
-from github upstream
+local 1
+upstream 1
