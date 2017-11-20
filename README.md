@@ -28,3 +28,4 @@ learn git
 1. local 
 2. local 
 3. upstream
+4.local
