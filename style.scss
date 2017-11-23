@@ -114,40 +114,57 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Bams Header
 --------------------------------------------------------------*/
-@import "lib/bams/css/_colors";
-@import "lib/bams/css/_header";
+@import "lib/bams/scss/_colors";
+@import "lib/bams/scss/_header";
 
 /*--------------------------------------------------------------
 # Bams Hero
 --------------------------------------------------------------*/
-@import "lib/bams/css/_hero";
+@import "lib/bams/scss/_hero";
 
 /*--------------------------------------------------------------
 # Bams content
 --------------------------------------------------------------*/
-@import "lib/bams/css/_content";
+@import "lib/bams/scss/_content";
 
 /*--------------------------------------------------------------
 # Bams sidebar
 --------------------------------------------------------------*/
-@import "lib/bams/css/_sidebar";
+@import "lib/bams/scss/_sidebar";
 
 /*--------------------------------------------------------------
 # Bams color customizer wordpress
 --------------------------------------------------------------*/
-@import "lib/bams/css/_color-customizer-wordpress";
+@import "lib/bams/scss/_color-customizer-wordpress";
 
 /*--------------------------------------------------------------
 # Bams Footer
 --------------------------------------------------------------*/
-@import "lib/bams/css/_footer";
+@import "lib/bams/scss/_footer";
 
 /*--------------------------------------------------------------
 # Bams Woocommerce
 --------------------------------------------------------------*/
-@import "lib/bams/css/_woocommerce";
+@import "lib/bams/scss/_woocommerce";
 
 /*--------------------------------------------------------------
 # Bams Small screen
 --------------------------------------------------------------*/
-@import "lib/bams/css/_small-screen";
+@import "lib/bams/scss/_small-screen";
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@import "lib/font-awesome/scss/variables";
+@import "lib/font-awesome/scss/mixins";
+@import "lib/font-awesome/scss/path";
+//@import "lib/font-awesome/scss/core";
+//@import "lib/font-awesome/scss/larger";
+//@import "lib/font-awesome/scss/fixed-width";
+//@import "lib/font-awesome/scss/list";
+//@import "lib/font-awesome/scss/bordered-pulled";
+//@import "lib/font-awesome/scss/animated";
+//@import "lib/font-awesome/scss/rotated-flipped";
+//@import "lib/font-awesome/scss/stacked";
+//@import "lib/font-awesome/scss/icons";
+//@import "lib/font-awesome/scss/screen-reader";

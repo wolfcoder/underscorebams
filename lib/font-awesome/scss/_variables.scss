@@ -1,8 +1,8 @@
 // Variables
 // --------------------------
 
-$fa-font-path:        "../fonts" !default;
-//$fa-font-path:        "/lib/font-awesome/fonts" !default;
+//$fa-font-path:        "../fonts" !default;
+$fa-font-path: "fonts" !default;
 $fa-font-size-base:   14px !default;
 $fa-line-height-base: 1 !default;
 //$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default; // for referencing Bootstrap CDN font files directly
@@ -34,8 +34,8 @@ $fa-li-width:         (30em / 14) !default;
 //$fa-var-angle-double-right: "\f101";
 //$fa-var-angle-double-up: "\f102";
 //$fa-var-angle-down: "\f107";
-$fa-var-angle-left: "\f104";
-$fa-var-angle-right: "\f105";
+//$fa-var-angle-left: "\f104";
+//$fa-var-angle-right: "\f105";
 //$fa-var-angle-up: "\f106";
 //$fa-var-apple: "\f179";
 //$fa-var-archive: "\f187";
@@ -70,7 +70,7 @@ $fa-var-angle-right: "\f105";
 //$fa-var-bar-chart: "\f080";
 //$fa-var-bar-chart-o: "\f080";
 //$fa-var-barcode: "\f02a";
-$fa-var-bars: "\f0c9";
+//$fa-var-bars: "\f0c9";
 //$fa-var-bath: "\f2cd";
 //$fa-var-bathtub: "\f2cd";
 //$fa-var-battery: "\f240";
@@ -173,7 +173,7 @@ $fa-var-bars: "\f0c9";
 //$fa-var-clipboard: "\f0ea";
 //$fa-var-clock-o: "\f017";
 //$fa-var-clone: "\f24d";
-$fa-var-close: "\f00d";
+//$fa-var-close: "\f00d";
 //$fa-var-cloud: "\f0c2";
 //$fa-var-cloud-download: "\f0ed";
 //$fa-var-cloud-upload: "\f0ee";
