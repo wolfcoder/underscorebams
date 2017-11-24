@@ -45,6 +45,17 @@ ul.woocommerce-mini-cart {
 
 }
 
+.woocommerce-breadcrumb a:first-of-type:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f015";
+  margin-right: 0.5407911001em;
+}
+
 @media (max-width: 1280px) {
   #container {
     padding-left: 0.8em;

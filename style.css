@@ -957,6 +957,17 @@ ul.woocommerce-mini-cart li a {
   color: #FFF;
   background-color: #3162bf; }
 
+.woocommerce-breadcrumb a:first-of-type:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f015";
+    margin-right: 0.5407911001em;
+}
+
 @media (max-width: 1280px) {
   #container {
     padding-left: 0.8em;
@@ -996,7 +1007,6 @@ ul.woocommerce-mini-cart li a {
   .menu-toggle:before,
   .second-nav-toggle:before {
     font-size: 1.5em; } }
-
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -1008,7 +1018,7 @@ ul.woocommerce-mini-cart li a {
   src: url("fonts/fontawesome-webfont.eot?v=4.7.0");
   src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
-  font-style: normal;
+    font-style: normal;
 }
 
 /*# sourceMappingURL=style.css.map */

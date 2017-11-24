@@ -91,6 +91,12 @@ if ( ! function_exists( 'underscorebams_setup' ) ) :
 		add_image_size( 'underscorebams-featured-fullwidth', 1140, 624, true );
 		add_image_size( 'tab-small', 60, 60 , true ); // Small Thumbnail
 
+		//Enabling product gallery features (zoom, swipe, lightbox) in 3.0.0
+
+		//add_theme_support( 'wc-product-gallery-zoom' );
+		//add_theme_support( 'wc-product-gallery-lightbox' );
+		//add_theme_support( 'wc-product-gallery-slider' );
+
 	}
 endif;
 add_action( 'after_setup_theme', 'underscorebams_setup' );
@@ -169,12 +175,16 @@ add_action( 'widgets_init', 'underscorebams_widgets_init' );
  * Enqueue scripts and styles.
  */
 function underscorebams_scripts() {
+	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
+
+//	wp_enqueue_style( 'underscorebams-woocommerce-style', get_template_directory_uri() . '/sass/woocommerce.css', array(), '1.0','all' );
+
 	wp_enqueue_style( 'underscorebams-style', get_template_directory_uri(). '/style.min.css' , array(), '1.0.0' ,'all' );
 //	wp_enqueue_style( 'underscorebams-woocommerce', get_template_directory_uri(). '/woocommerce.css' , array(), '1.0.0' ,'all' );
 //	wp_enqueue_style('font-awesome', get_template_directory_uri().'/lib/font-awesome/scss/font-awesome.min.css', array(),'4.7.0', 'all');
 //	wp_enqueue_script( 'underscorebams-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_register_script( 'underscorebams-js', get_template_directory_uri() . '/js/bams-script.min.js', array( 'jquery' ), '1.0.0', true );
+	wp_register_script( 'underscorebams-js', get_template_directory_uri() . '/js/bams-script' . $suffix . '.js', array( 'jquery' ), '1.0.0', true );
 
 //	wp_enqueue_script( 'underscorebams-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -227,9 +237,9 @@ function bams_remove_wp_ver_css_js( $src ) {
 		$src = remove_query_arg( 'ver', $src );
 	return $src;
 }
-// Remove WP Version From Styles
+
+// Remove WP Version From script and Styles
 add_filter( 'style_loader_src', 'bams_remove_wp_ver_css_js', 90 );
-// Remove WP Version From Scripts
 add_filter( 'script_loader_src', 'bams_remove_wp_ver_css_js', 90);
 
 //remove_action('wp_head', 'wp_generator');
@@ -251,3 +261,4 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
+
