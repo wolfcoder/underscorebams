@@ -37,6 +37,7 @@ function underscorebams_jetpack_setup() {
 		),
 	) );
 }
+
 add_action( 'after_setup_theme', 'underscorebams_jetpack_setup' );
 
 /**

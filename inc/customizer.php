@@ -1,6 +1,6 @@
 <?php
 /**
- * underscorebams Theme Customizer
+ * Underscorebams Theme Customizer
  *
  * @package underscorebams
  */
@@ -26,6 +26,7 @@ function underscorebams_customize_register( $wp_customize ) {
 		) );
 	}
 }
+
 add_action( 'customize_register', 'underscorebams_customize_register' );
 
 /**
@@ -52,4 +53,5 @@ function underscorebams_customize_partial_blogdescription() {
 function underscorebams_customize_preview_js() {
 	wp_enqueue_script( 'underscorebams-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
+
 add_action( 'customize_preview_init', 'underscorebams_customize_preview_js' );

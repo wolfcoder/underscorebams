@@ -21,8 +21,8 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-    <a class="skip-link screen-reader-text"
-       href="#content"><?php esc_html_e( 'Skip to content', 'underscorebams' ); ?></a>
+    <a class="skip-link screen-reader-text" href="#content">
+		<?php esc_html_e( 'Skip to content', 'underscorebams' ); ?></a>
     <header id="masthead" class="site-header">
         <div class="site-branding">
 
@@ -38,8 +38,8 @@
 			<?php endif; ?>
 
         </div><!-- .site-branding -->
-        <button class="menu-toggle" aria-controls="main-navigation" aria-expanded="false"><span>Menu</button>
-        <button class="second-nav-toggle" aria-controls="second-nav"><span>Cart </span></button>
+        <button class="menu-toggle" aria-expanded="false"><span>Menu</span></button>
+        <button class="second-nav-toggle"><span>Cart </span></button>
         <div class="modal">
         </div>
         <nav class="main-navigation">
@@ -57,7 +57,7 @@
         </div>
     </header><!-- #masthead -->
 
-	<?php if ( is_front_page() ){ ?>
+	<?php if ( is_front_page() ) { ?>
 		<?php if ( has_header_image() ) { ?>
             <div class="hero" style="background-image: url('<?php header_image(); ?>'); min-height:500px; ">
 				<?php dynamic_sidebar( 'hero' ); ?>
@@ -65,5 +65,5 @@
 		<?php } ?>
 	<?php } ?>
 
-<div class="site-content">
+    <div class="site-content">
 
