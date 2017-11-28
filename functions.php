@@ -179,9 +179,9 @@ function underscorebams_scripts() {
 
 //	wp_enqueue_style( 'underscorebams-woocommerce-style', get_template_directory_uri() . '/sass/woocommerce.css', array(), '1.0','all' );
 
-	wp_enqueue_style( 'underscorebams-style', get_template_directory_uri(). '/style.min.css' , array(), '1.0.0' ,'all' );
+	wp_enqueue_style( 'underscorebams-style', get_template_directory_uri() . '/style' . $suffix . '.css', array(), '1.0.0', 'all' );
 //	wp_enqueue_style( 'underscorebams-woocommerce', get_template_directory_uri(). '/woocommerce.css' , array(), '1.0.0' ,'all' );
-//	wp_enqueue_style('font-awesome', get_template_directory_uri().'/lib/font-awesome/scss/font-awesome.min.css', array(),'4.7.0', 'all');
+//	wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(),'4.7.0', 'all');
 //	wp_enqueue_script( 'underscorebams-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_register_script( 'underscorebams-js', get_template_directory_uri() . '/js/bams-script' . $suffix . '.js', array( 'jquery' ), '1.0.0', true );
@@ -261,4 +261,3 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
-
