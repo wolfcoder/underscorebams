@@ -1,33 +1,33 @@
 @media (min-width: 1280px) {
-  .content-area,
-  #container {
-    float: left;
-    margin: 0 (-$size__site-sidebar) 0 0;
-    width: $size__site-main;
-  }
+    .content-area,
+    #container {
+        float: left;
+        margin: 0 (-$size__site-sidebar) 0 0;
+        width: $size__site-main;
+    }
 
-  .site-main,
-  #container #content {
-    margin: 0 $size__site-sidebar 0 0;
-    padding-right: 40px;
-  }
+    .site-main,
+    #container #content {
+        margin: 0 $size__site-sidebar 0 0;
+        padding-right: 40px;
+    }
 
-  .site-content .widget-area,
-  #secondary {
-    float: right;
-    overflow: hidden;
-    width: $size__site-sidebar;
-  }
+    .site-content .widget-area,
+    #secondary {
+        float: right;
+        overflow: hidden;
+        width: $size__site-sidebar;
+    }
 }
 
 .site-content .widget-area,
 #secondary {
-  background-color: #f6f6f6;
-  position: sticky;
-  top: 50px;
+    background-color: #f6f6f6;
+    position: sticky;
+    top: 50px;
 }
 
 .site-footer {
-  clear: both;
-  width: $size__site-main;
+    clear: both;
+    width: $size__site-main;
 }

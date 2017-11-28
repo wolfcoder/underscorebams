@@ -1,19 +1,19 @@
 .site-content-full {
-  padding: 0;
-  margin: 0;
-  .entry-content {
-    padding-top: 0;
-    margin-top: 0;
-  }
+    padding: 0;
+    margin: 0;
+    .entry-content {
+        padding-top: 0;
+        margin-top: 0;
+    }
 }
 
 .no-side-padding,
 .site-main {
-  & > :first-child {
-    h1, h2 , h3 {
-      margin-top: 0;
+    & > :first-child {
+        h1, h2, h3 {
+            margin-top: 0;
+        }
     }
-  }
 }
 
 //#container {
@@ -22,21 +22,20 @@
 //}
 
 .hentry,
-.widget{
-  background: url(images/divider.png) repeat-x left bottom !important;
-  padding-bottom: 1.5em;
+.widget {
+    background: url(images/divider.png) repeat-x left bottom !important;
+    padding-bottom: 1.5em;
 }
 
 .hentry,
-.widget-area .widget
- {
-  padding-left: 0.8em;
-  padding-right: 0.8em;
+.widget-area .widget {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
 }
 
 .comments-area,
 .page-header {
-  padding: 0 .8em
+    padding: 0 .8em
 }
 
 @media (min-width: 1280px) {

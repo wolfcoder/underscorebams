@@ -1,174 +1,178 @@
 .site-header {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  line-height: 50px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-
-  .search-field {
     width: 100%;
-  }
-  input[type="submit"] {
-    display: none;
-  }
-  form {
-    padding: 0 20px;
-  }
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    line-height: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+    .search-field {
+        width: 100%;
+    }
+    input[type="submit"] {
+        display: none;
+    }
+    form {
+        padding: 0 20px;
+    }
 }
 
 .site-branding {
-  float: left;
-  width: 200px;
-  max-width: 300px;
-  padding-left: 10px;
-  white-space: nowrap;
-  .site-title {
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-    font-family: 'Chewy', cursive;
-    a {
-      color: $color__primary-menu;
-      text-decoration: none;
-      &:visited,
-      &:hover,
-      &:focus,
-      &:active {
-        color: $color__link-hover;
-      }
+    float: left;
+    width: 200px;
+    max-width: 300px;
+    padding-left: 10px;
+    white-space: nowrap;
+    .site-title {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+        font-family: 'Chewy', cursive;
+        a {
+            color: $color__primary-menu;
+            text-decoration: none;
+            &:visited,
+            &:hover,
+            &:focus,
+            &:active {
+                color: $color__link-hover;
+            }
+        }
     }
-  }
-  img {
-    max-height: 30px;
-    vertical-align: middle;
-  }
+    img {
+        max-height: 30px;
+        vertical-align: middle;
+    }
 }
 
 .main-navigation {
-  display: none;
-  position: fixed;
-  overflow: scroll;
-  height: 100%;
-  z-index: 100;
-  width: -webkit-calc(100% - 50px);
-  width: -moz-calc(100% - 50px);
-  width: calc(100% - 50px);
-  line-height: 2em;
-  padding-top: 1em;
-  h2 {
-    padding: 0 0.8em;
-    margin: 0.5em 0;
-  }
-  ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    li {
-      a {
-        display: block;
-        padding: 0 20px;
-      }
-
-      li {
-        a {
-          padding: 0 40px;
-        }
+    display: none;
+    position: fixed;
+    overflow: scroll;
+    height: 100%;
+    z-index: 100;
+    width: -webkit-calc(100% - 50px);
+    width: -moz-calc(100% - 50px);
+    width: calc(100% - 50px);
+    line-height: 2em;
+    padding-top: 1em;
+    h2 {
+        padding: 0 0.8em;
+        margin: 0.5em 0;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
         li {
-          a {
-            padding: 0 60px;
-          }
+            a {
+                display: block;
+                padding: 0 20px;
+            }
+
+            li {
+                a {
+                    padding: 0 40px;
+                }
+                li {
+                    a {
+                        padding: 0 60px;
+                    }
+                }
+            }
+
         }
-      }
-
     }
-  }
 
-  a {
-    &:hover {
-      background-color: $theme-color-dark;
+    a {
+        &:hover {
+            background-color: $theme-color-dark;
+        }
     }
-  }
 
-  .current_page_item > a, .current-cat > a {
-    background-color: $theme-color-dark;
-  }
+    .current_page_item > a, .current-cat > a {
+        background-color: $theme-color-dark;
+    }
 
-  .widget {
-    margin-bottom: 0;
-  }
+    .widget {
+        margin-bottom: 0;
+    }
 
 }
 
 .menu-toggle {
-  float: right;
-  height: 50px;
-  border: none;
-  background: none;
-  padding: 0 10px;
+    float: right;
+    height: 50px;
+    border: none;
+    background: none;
+    padding: 0 10px;
 
-  &:before {
-    content: '\f00d';
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-  }
+    &:before {
+        content: '\f00d';
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+    }
 
-  &[aria-expanded="false"]:before {
-    content: '\f0c9';
-  }
+    &[aria-expanded="false"]:before {
+        content: '\f0c9';
+    }
 
-  &:focus {
-    outline: 0;
-  }
+    &:focus {
+        outline: 0;
+    }
 
-  span { padding-left: 5px;}
+    span {
+        padding-left: 5px;
+    }
 }
 
 .second-nav-toggle {
-  float: right;
-  height: 50px;
-  border: none;
-  background: none;
-  padding: 0 10px;
+    float: right;
+    height: 50px;
+    border: none;
+    background: none;
+    padding: 0 10px;
 
-  &:before {
-    content: "\f07a";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-  }
+    &:before {
+        content: "\f07a";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+    }
 
-  &:focus {
-    outline: 0;
-  }
+    &:focus {
+        outline: 0;
+    }
 
-  span { padding-left: 5px;}
+    span {
+        padding-left: 5px;
+    }
 }
 
 .second-nav {
-  clear: both;
-  display: none;
-  padding: 0 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: rgb(110, 110, 110);
-  border-top-color: rgba(0, 0, 0, 0.1);
+    clear: both;
+    display: none;
+    padding: 0 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(110, 110, 110);
+    border-top-color: rgba(0, 0, 0, 0.1);
 }
 
 /* The Modal (background) */
 .modal {
-  cursor: pointer; //ios support iphone
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    cursor: pointer; //ios support iphone
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }

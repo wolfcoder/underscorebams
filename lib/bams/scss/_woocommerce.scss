@@ -1,47 +1,47 @@
 ul.woocommerce-mini-cart {
-  li {
-    a {
-      vertical-align: top;
-      line-height: 1.5rem;
+    li {
+        a {
+            vertical-align: top;
+            line-height: 1.5rem;
+        }
     }
-  }
 }
 
 .second-nav {
-  .widget {
-    padding-bottom: 10px;
-    margin-bottom: 0;
-  }
-  ul.woocommerce-mini-cart {
-    li {
-      a {
-        vertical-align: top;
-        line-height: 1.5rem;
-      }
+    .widget {
+        padding-bottom: 10px;
+        margin-bottom: 0;
     }
-  }
+    ul.woocommerce-mini-cart {
+        li {
+            a {
+                vertical-align: top;
+                line-height: 1.5rem;
+            }
+        }
+    }
 
     p,
     h2 {
-    margin: 0;
-    padding: 0;
-  }
+        margin: 0;
+        padding: 0;
+    }
 
-  .woocommerce-mini-cart ul.cart_list li img, .woocommerce ul.product_list_widget li img {
-    float: right;
-    margin-left: 4px;
-    width: 60px;
-    height: auto;
-    box-shadow: none;
-  }
+    .woocommerce-mini-cart ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+        float: right;
+        margin-left: 4px;
+        width: 60px;
+        height: auto;
+        box-shadow: none;
+    }
 
     .woocommerce #respond input#submit,
     .woocommerce a.button,
     .woocommerce button.button,
     .woocommerce input.button {
         color: #FFF;
-    background-color: $theme-color-dark;
-  }
+        background-color: $theme-color-dark;
+    }
 
 }
 
@@ -57,45 +57,45 @@ ul.woocommerce-mini-cart {
 }
 
 @media (max-width: 1280px) {
-  #container {
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-  }
+    #container {
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
 }
 
 .woocommerce .woocommerce-breadcrumb {
-  padding: 10px 0;
-  margin: 0;
+    padding: 10px 0;
+    margin: 0;
 }
 
 .woocommerce-products-header h1 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .woocommerce {
 
     .page-content, .entry-content,
     .entry-summary {
-    margin-top: 0;
-  }
-
-   .woocommerce-MyAccount-navigation {
-    float: none;
-    width: 100%;
-    ul {
-      padding-left: 0;
-      margin: 0 0 1em 0;
-      li {
-        list-style: none;
-        display: inline;
-        padding-right: 2em;
-      }
+        margin-top: 0;
     }
-  }
 
-   .woocommerce-MyAccount-content {
-      float: none;
-      width: 100%;
-   }
+    .woocommerce-MyAccount-navigation {
+        float: none;
+        width: 100%;
+        ul {
+            padding-left: 0;
+            margin: 0 0 1em 0;
+            li {
+                list-style: none;
+                display: inline;
+                padding-right: 2em;
+            }
+        }
+    }
+
+    .woocommerce-MyAccount-content {
+        float: none;
+        width: 100%;
+    }
 }
 

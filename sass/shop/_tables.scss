@@ -2,78 +2,78 @@
  * Shop tables
  */
 table.shop_table_responsive {
-	thead {
-		display: none;
-	}
+    thead {
+        display: none;
+    }
 
-	tbody {
-		th {
-			display: none;
-		}
-	}
+    tbody {
+        th {
+            display: none;
+        }
+    }
 
-	tr {
-		td {
-			display: block;
-			text-align: right;
-			clear: both;
+    tr {
+        td {
+            display: block;
+            text-align: right;
+            clear: both;
 
-			&:before {
-				content: attr(data-title) ': ';
-				float: left;
-			}
+            &:before {
+                content: attr(data-title) ': ';
+                float: left;
+            }
 
-			&.product-remove {
-				a {
-					text-align: left;
-				}
+            &.product-remove {
+                a {
+                    text-align: left;
+                }
 
-				&:before {
-					display: none;
-				}
-			}
+                &:before {
+                    display: none;
+                }
+            }
 
-			&.actions,
-			&.download-actions {
-				&:before {
-					display: none;
-				}
-			}
+            &.actions,
+            &.download-actions {
+                &:before {
+                    display: none;
+                }
+            }
 
-			&.download-actions {
-				.button {
-					display: block;
-					text-align: center;
-				}
-			}
-		}
-	}
+            &.download-actions {
+                .button {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 48em) {
-	table.shop_table_responsive {
-		thead {
-			display: table-header-group;
-		}
+    table.shop_table_responsive {
+        thead {
+            display: table-header-group;
+        }
 
-		tbody {
-			th {
-				display: table-cell;
-			}
-		}
+        tbody {
+            th {
+                display: table-cell;
+            }
+        }
 
-		tr {
-			th, td {
-				text-align: left;
-			}
+        tr {
+            th, td {
+                text-align: left;
+            }
 
-			td {
-				display: table-cell;
+            td {
+                display: table-cell;
 
-				&:before {
-					display: none;
-				}
-			}
-		}
-	}
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
 }

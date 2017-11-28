@@ -1,42 +1,42 @@
 .hero {
-  position: relative;
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  .hero-caption {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    top: 50%;
-    transform: translateY(-50%);
-    h1 {
-      line-height: 3.5rem;
-      font-size: 3em;
-      font-weight: 800;
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .hero-caption {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        top: 50%;
+        transform: translateY(-50%);
+        h1 {
+            line-height: 3.5rem;
+            font-size: 3em;
+            font-weight: 800;
+        }
     }
-  }
 
-  .btn {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    color: #ffffff;
-    background: #3dd949;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    &:before {
-      padding-right: 5px;
-      content: '\f232';
-      font-family: FontAwesome, cursive;
-      font-weight: normal;
-      font-style: normal;
+    .btn {
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        color: #ffffff;
+        background: #3dd949;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        &:before {
+            padding-right: 5px;
+            content: '\f232';
+            font-family: FontAwesome, cursive;
+            font-weight: normal;
+            font-style: normal;
+        }
     }
-  }
 
-  .btn:hover {
-    background: #33b63e;
-    text-decoration: none;
-  }
+    .btn:hover {
+        background: #33b63e;
+        text-decoration: none;
+    }
 }
