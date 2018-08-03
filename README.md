@@ -9,7 +9,6 @@ Feature:
 - widget ready in 4 main section
 
 Live Demo use in:
-- http://hanarooku.com
 - http://cozymart.net
 
 ## Update
